@@ -1,0 +1,8 @@
+.DS_Store
+*.dSYM/
+a.out
+Part-1/fileManagement
+Part-1/folder_*/
+Part-2/processManagement
+Part-2/writer
+Part-2/newfile.txt
