@@ -10,6 +10,7 @@ reworked later.
 
 ```
 make          # builds Part-1/fileManagement, Part-2/processManagement, Part-2/writer
+make test     # 51 checks, including the buffering bugs described below
 make clean    # removes the binaries and Part-2/newfile.txt
 ```
 

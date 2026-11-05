@@ -12,7 +12,10 @@ Part-2/processManagement: Part-2/processManagement.c
 Part-2/writer: Part-2/writer.c
 	$(CC) $(CFLAGS) -o $@ $<
 
+test: all
+	python3 tests/run.py
+
 clean:
 	rm -f Part-1/fileManagement Part-2/processManagement Part-2/writer Part-2/newfile.txt
 
-.PHONY: all clean
+.PHONY: all test clean
